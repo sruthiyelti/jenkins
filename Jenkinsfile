@@ -12,3 +12,5 @@ stage('maven targets') {
 stage('shell script') {
     sh label: '', script: 'echo "this is java project"'
 }
+    
+}
