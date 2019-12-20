@@ -13,4 +13,7 @@ stage('shell script') {
     sh label: '', script: 'echo "this is java project"'
 }
     
+stage('myshell') {
+    sh label: '', script: 'echo "this is java project2"'
+}
 }
