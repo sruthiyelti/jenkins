@@ -1,0 +1,16 @@
+node{
+    
+stage('clone java code') {
+   git branch: 'SIT', url: 'https://github.com/vtvc/mahalogin.git'
+}
+    
+
+stage('execute maven targets') {
+  sh label: '', script: 'mvn install'
+}
+   
+    
+    
+    
+    
+}
